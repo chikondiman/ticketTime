@@ -9,6 +9,7 @@ namespace ticketTime.Models
     {
         public int Id { get; set; }
         public string Movie_Name { get; set; }
+        public string Movie_Description { get; set;  }
         public string MyProperty { get; set; }
     }
 }
