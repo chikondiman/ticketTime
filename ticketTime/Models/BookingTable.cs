@@ -13,7 +13,7 @@ namespace ticketTime.Models
         public DateTime Datetopresent { get; set; }
         public int MovieDetailsId { get; set; }
         public int Amount { get; set; }
-  
+        [ForeignKey("MovieDetailsId")]
         public virtual MovieDetails moviedetails { get; set; }
 
     }
